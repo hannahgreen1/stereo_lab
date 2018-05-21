@@ -1,6 +1,8 @@
 public class Stereo {
 
-    protected int startVolumeLevel;
+   private int startVolumeLevel;
+   private Radio radio;
+   private CDPlayer cdPlayer;
 
     public Stereo() {
         this.startVolumeLevel = 0;
@@ -10,5 +12,7 @@ public class Stereo {
         return startVolumeLevel;
     }
 
-
+//    public String cdPlay(String title){
+//      return ;
+//    }
 }

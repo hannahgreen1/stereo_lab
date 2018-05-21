@@ -4,7 +4,7 @@ Radio radio;
     public String tuneRadio;
 
     public String tuneRadio(String radioStation){
-        return tune(radioStation);
+        return this.tune(radioStation);
     }
 
 
