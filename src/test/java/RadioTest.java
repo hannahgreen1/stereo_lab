@@ -14,13 +14,13 @@ public class RadioTest {
 
     @Test
     public void hasNoVolume() {
-        assertEquals(0, radio.startVolumeLevel());
+        assertEquals(0, radio.volumeLevel());
     }
 
     @Test
     public void turnVolumeUp(){
         radio.volume(10);
-        assertEquals(10, radio.startVolumeLevel());
+        assertEquals(10, radio.volumeLevel());
     }
 
     @Test

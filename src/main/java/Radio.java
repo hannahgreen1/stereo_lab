@@ -13,7 +13,7 @@ Radio radio;
     }
 
     public void volume(int volume) {
-        volumeLevel += volume;
+        startVolumeLevel += volume;
     }
 
 

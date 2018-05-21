@@ -1,13 +1,13 @@
 public class Stereo {
 
-    protected int volumeLevel;
+    protected int startVolumeLevel;
 
     public Stereo() {
-        this.volumeLevel = 0;
+        this.startVolumeLevel = 0;
     }
 
-    public int startVolumeLevel() {
-        return volumeLevel;
+    public int volumeLevel() {
+        return startVolumeLevel;
     }
 
 

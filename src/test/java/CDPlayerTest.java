@@ -14,12 +14,12 @@ public class CDPlayerTest {
 
     @Test
     public void hasNoVolume() {
-        assertEquals(0, cdPlayer.startVolumeLevel());
+        assertEquals(0, cdPlayer.volumeLevel());
     }
 
     @Test
     public void turnVolumeUp(){
         cdPlayer.volume(15);
-        assertEquals(15, cdPlayer.startVolumeLevel());
+        assertEquals(15, cdPlayer.volumeLevel());
     }
 }
